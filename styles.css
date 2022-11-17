@@ -1,0 +1,117 @@
+/* =========================== this is total body's class ===========================*/
+.mainBody {
+    /* background-color: #DEF5E5; */
+    background-color: white;
+}
+
+/* ===========================in this class of container is including everything : form side and image side ===========================*/
+.container {
+    /* background-color: #BCEAD5; */
+    margin: 10% auto auto 0;
+    padding: 0 20% 20% 0;
+    /* border-radius: 15px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/* --------------- form side ---------------*/
+.formSide {
+    margin: auto;    
+}
+
+
+/* --------------- Image Side  --------------- */
+.surati {
+}
+
+#imgID {
+    width: 100%;
+}
+
+/* ===========================in case of tittling  something  ===========================*/
+.formTittle {
+    text-align: center;
+    font-weight: 100rem;
+}
+
+
+/*======================== bellow is given forms: inputs. check marks , login buttons and etc ==================================*/
+/* -------------------------------------------------------------- */
+
+/* div of form groups */
+.grand-form-group {
+    padding-top: 8%;
+}
+
+/* this is a inputs: email and password */
+.form-group {
+    width: 80%;
+    margin: auto;
+}
+
+.form-checks {
+    text-align: center;
+    width: 100%;
+}
+
+/*  --------------------------------------------------------------*/
+/* email input  */
+#emailInputId {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* email input logo */
+#emailLogoLable {
+    position: relative;
+    width: 3%;
+    top: 2rem;
+    left: 0.5rem;
+}
+
+/*  --------------------------------------------------------------*/
+/* password input */
+#passwordInputId {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* password input logo */
+#passwordLogoLable {
+    position: relative;
+    width: 3%;
+    top: 2rem;
+    left: 0.5rem;
+}
+
+/*  --------------------------------------------------------------*/
+/* given social buttons  */
+.SocialButtons {
+width: 80%;
+margin: auto;
+    
+}
+/* current social buttons */
+.CurrentSocialButtons {
+    margin-top: 0.9rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* checkmarks  */
+.LoginButton {
+    width: 60%;
+}
+
+.form-check-label {
+    color: grey;
+}
+
+a {
+    text-decoration:none !important;
+    color: rgb(78, 73, 73) !important;
+}
+
+
