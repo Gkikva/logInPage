@@ -7,11 +7,14 @@
 /* ===========================in this class of container is including everything : form side and image side ===========================*/
 .container {
     /* background-color: #BCEAD5; */
-    margin: 10% auto auto 0;
+    height: 40rem;
+    margin: 5% auto 50% 10%;
     padding: 0 20% 20% 0;
     /* border-radius: 15px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+
+
 
 /* --------------- form side ---------------*/
 .formSide {
@@ -25,6 +28,12 @@
 
 #imgID {
     width: 100%;
+}
+
+@media (max-width: 767px){
+    #imgID {
+        visibility: hidden;
+    }
 }
 
 /* ===========================in case of tittling  something  ===========================*/
